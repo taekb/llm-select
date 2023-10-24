@@ -228,4 +228,3 @@ dependencies:
     - xformers==0.0.22.post4
     - xgboost==1.7.2
     - yarl==1.9.2
-prefix: /usr0/home/danielje/anaconda3/envs/llm-select

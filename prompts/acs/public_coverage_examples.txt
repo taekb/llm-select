@@ -1,0 +1,19 @@
+Here are some example outputs:
+
+- Variable: Marital Status (MAR)
+{
+    "reasoning": "Marital status can be associated with various socioeconomic factors, including the likelihood of having access to health insurance. For example, individuals who are married might have access to health insurance through their spouse's employer. Furthermore, certain public health insurance programs might consider household size and income, which can be indirectly related to martial status. Thus, marital status might carry some information about an individual's likelihood of having public health insurance coverage. Therefore, the score is 0.65.",
+    "score": 0.65
+}
+
+- Variable: Person's Weight replicate 78 (PWGTP78)
+{
+    "reasoning": "PWGTP78 refers to the 78th replicate PUMS weight for an individual, used in calculating accurate variance estimates for ACS PUMS estimates. These replicate weights do not inherently contain information about an individual's health insurance status, and their primary role is to help ensure the reliability and robustness of estimates derived from the survey sample. Therefore, the score is 0.1.",
+    "score": 0.1
+}
+
+- Variable: Income-to-poverty ratio recode (POVPIP)
+{
+    "reasoning": "The income-to-poverty ratio is a measure that compares an individual's or household's income to the poverty threshold set for their respective size and composition. This ratio offers a straightforward understanding of a person's financial situation relative to the poverty line. An individual with a ratio close to or below 1 has an income that is near the poverty threshold, which can directly affect his/her eligibility for public health insurance programs. Therefore, the income-to-poverty ratio recode is a strong predictor of whether a low-income individual below the age of 65 may have public health insurance. So, the score is 0.9.",
+    "score": 0.9
+}

@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Median Income in U.S. Census Block Group
+{
+    "reasoning": "Median income is often directly correlated with the standard of living in an area, which can be correlated with housing prices. Areas with higher median incomes might have more expensive houses because the residents can afford to pay more for housing, either because of better infrastructure, schools, or other amenities. Additionally, homeowners in areas with higher median incomes may invest more on home improvement, which could raise the median housing price. Thus, the score is 0.9.",
+    "score": 0.9
+}

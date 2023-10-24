@@ -1,0 +1,1 @@
+Context: We wish to build a machine learning model that can accurately predict the selling price of a used car (target variable). We recorded a total of 7 features (e.g., age, number of previous owners, fuel type). Prior to training the model, we first want to identify a subset of the 7 features that are most important for reliable prediction of the target variable.

@@ -1,0 +1,265 @@
+feature,mainunit,unit,linksto,itemid,label,dtype
+temperature,C,C,chartevents,223762,"Temperature Celsius",numeric
+temperature,C,C,labevents,50825,"Temperature",numeric
+temperature,C,F,chartevents,223761,"Temperature Fahrenheit",numeric
+oxygen saturation (SaO2 / SpO2),%,%,chartevents,220227,"Arterial O2 Saturation",numeric
+oxygen saturation (SaO2 / SpO2),%,%,chartevents,220277,"O2 saturation pulseoxymetry",numeric
+oxygen saturation (SaO2 / SpO2),%,%,labevents,50817,"Oxygen Saturation",numeric
+heart rate,bpm,bpm,chartevents,220045,"Heart Rate",numeric
+respiratory rate,bpm,bpm,chartevents,220210,"Respiratory Rate",numeric
+respiratory rate,bpm,bpm,chartevents,224689,"Respiratory Rate (spontaneous)",numeric
+respiratory rate,bpm,bpm,chartevents,224690,"Respiratory Rate (Total)",numeric
+central venous pressure (CVP),mmHg,mmHg,chartevents,220074,"Central Venous Pressure",numeric
+end-tidal carbon dioxide (EtCO2),mmHg,mmHg,chartevents,228640,"EtCO2",numeric
+systemic systolic arterial blood pressure,mmHg,mmHg,chartevents,225309,"ART BP Systolic",numeric
+systemic systolic arterial blood pressure,mmHg,mmHg,chartevents,220050,"Arterial Blood Pressure systolic",numeric
+systemic systolic arterial blood pressure,mmHg,mmHg,chartevents,220179,"Non Invasive Blood Pressure systolic",numeric
+systemic diastolic arterial blood pressure,mmHg,mmHg,chartevents,225310,"ART BP Diastolic",numeric
+systemic diastolic arterial blood pressure,mmHg,mmHg,chartevents,220051,"Arterial Blood Pressure diastolic",numeric
+systemic diastolic arterial blood pressure,mmHg,mmHg,chartevents,220180,"Non Invasive Blood Pressure diastolic",numeric
+systemic mean arterial blood pressure,mmHg,mmHg,chartevents,225312,"ART BP Mean",numeric
+systemic mean arterial blood pressure,mmHg,mmHg,chartevents,220052,"Arterial Blood Pressure mean",numeric
+systemic mean arterial blood pressure,mmHg,mmHg,chartevents,220181,"Non Invasive Blood Pressure mean",numeric
+pulmonary systolic arterial blood pressure,mmHg,mmHg,chartevents,220059,"Pulmonary Artery Pressure systolic",numeric
+pulmonary diastolic arterial blood pressure,mmHg,mmHg,chartevents,220060,"Pulmonary Artery Pressure diastolic",numeric
+pulmonary mean arterial blood pressure,mmHg,mmHg,chartevents,220061,"Pulmonary Artery Pressure mean",numeric
+apnea interval (set),sec,sec,chartevents,223876,"Apnea Interval",numeric
+lung compliance,cmH2O/L/seconds,cmH2O/L/seconds,chartevents,229661,"Compliance",numeric
+minute volume,L/min,L/min,chartevents,224687,"Minute Volume",numeric
+tidal volume (set),mL,mL,chartevents,224684,"Tidal Volume (set)",numeric
+tidal volume (observed),mL,mL,chartevents,224685,"Tidal Volume (observed)",numeric
+tidal volume (spontaneous),mL,mL,chartevents,224686,"Tidal Volume (spontaneous)",numeric
+fraction of inspired oxygen (FiO2),fraction between 0 and 1,fraction between 0 and 1,chartevents,223835,"Inspired O2 Fraction",numeric
+fraction of inspired oxygen (FiO2),fraction between 0 and 1,fraction between 0 and 1,labevents,50816,"Oxygen",numeric
+oxygen flow rate,L/min,L/min,chartevents,223834,"O2 Flow",numeric
+oxygen flow rate,L/min,L/min,chartevents,224691,"Flow Rate (L/min)",numeric
+oxygen flow rate,L/min,L/min,chartevents,227287,"O2 Flow (additional cannula)",numeric
+oxygen flow rate,L/min,L/min,labevents,50815,"O2 Flow",numeric
+mean airway pressure,cmH2O,cmH2O,chartevents,224697,"Mean Airway Pressure",numeric
+peak inspired pressure,cmH2O,cmH2O,chartevents,224695,"Peak Insp. Pressure",numeric
+positive end-expiratory pressure (PEEP),cmH2O,cmH2O,labevents,50819,"PEEP",numeric
+positive end-expiratory pressure (PEEP),cmH2O,cmH2O,chartevents,224700,"Total PEEP Level",numeric
+plateau pressure,cmH2O,cmH2O,chartevents,224696,"Plateau Pressure",numeric
+albumin,g/dL,g/dL,chartevents,227456,"Albumin",numeric
+albumin,g/dL,g/dL,labevents,50862,"Albumin",numeric
+alkaline phosphatase,IU/L,IU/L,chartevents,225612,"Alkaline Phosphate",numeric
+alkaline phosphatase,IU/L,IU/L,labevents,50863,"Alkaline Phosphatase",numeric
+alanine transaminase (ALT / SGPT),IU/L,IU/L,chartevents,220644,"ALT",numeric
+alanine transaminase (ALT / SGPT),IU/L,IU/L,labevents,50861,"Alanine Aminotransferase (ALT)",numeric
+amylase,IU/L,IU/L,chartevents,220581,"Amylase",numeric
+amylase,IU/L,IU/L,labevents,50867,"Amylase",numeric
+anion gap,mEq/L,IU/L,labevents,50868,"Anion Gap",numeric
+anion gap,mEq/L,IU/L,chartevents,227073,"Anion gap",numeric
+aspartate aminotransferase (AST / SGOT),IU/L,IU/L,chartevents,220587,"AST",numeric
+aspartate aminotransferase (AST / SGOT),IU/L,IU/L,labevents,50878,"Asparate Aminotransferase (AST)",numeric
+differential bands / immature band forms (-bands) (%),%,%,chartevents,225638,"Differential-Bands",numeric
+differential bands / immature band forms (-bands) (%),%,%,labevents,51144,"Bands",numeric
+base excess,mEq/L,mEq/L,labevents,50802,"Base Excess",numeric
+base excess,mEq/L,mEq/L,chartevents,224828,"Arterial Base Excess",numeric
+differential basophils (-basos) (%),%,%,chartevents,225639,"Differential-Basos",numeric
+differential basophils (-basos) (%),%,%,labevents,51146,"Basophils",numeric
+glucose,mg/dL,mg/dL,labevents,50931,"Glucose",numeric
+glucose,mg/dL,mg/dL,labevents,50809,"Glucose",numeric
+glucose,mg/dL,mg/dL,chartevents,220621,"Glucose (serum)",numeric
+glucose,mg/dL,mg/dL,chartevents,226537,"Glucose (whole blood)",numeric
+glucose,mg/dL,mg/dL,chartevents,225664,"Glucose finger stick (range 70-100)",numeric
+bicarbonate,mEq/L,mEq/L,labevents,50882,"Bicarbonate",numeric
+bicarbonate,mEq/L,mEq/L,chartevents,227443,"HCO3 (serum)",numeric
+blood urea nitrogen (BUN),mg/dL,mg/dL,chartevents,225624,"BUN",numeric
+blood urea nitrogen (BUN),mg/dL,mg/dL,labevents,51006,"Urea Nitrogen",numeric
+calcium,mg/dL,mg/dL,chartevents,225625,"Calcium non-ionized",numeric
+calcium,mg/dL,mg/dL,labevents,50893,"Calcium, Total",numeric
+calcium (ionized),mmol/L,mmol/L,chartevents,225667,"Ionized Calcium",numeric
+calcium (ionized),mmol/L,mmol/L,labevents,50808,"Free Calcium",numeric
+chloride,mEq/L,mEq/L,chartevents,220602,"Chloride (serum)",numeric
+chloride,mEq/L,mEq/L,chartevents,226536,"Chloride (whole blood)",numeric
+chloride,mEq/L,mEq/L,labevents,50806,"Chloride, Whole Blood",numeric
+chloride,mEq/L,mEq/L,labevents,50902,"Chloride",numeric
+cortisol,ug/dL,ug/dL,chartevents,227463,"Cortisol",numeric
+creatinine phosphokinase (CPK / CK),IU/L,IU/L,chartevents,225634,"CK (CPK)",numeric
+creatinine phosphokinase (CPK / CK),IU/L,IU/L,labevents,50910,"Creatine Kinase (CK)",numeric
+creatinine phosphokinase myocardial band (CK-MB),ng/mL,ng/mL,chartevents,227445,"CK-MB",numeric
+creatinine phosphokinase myocardial band (CK-MB),ng/mL,ng/mL,labevents,50911,"Creatine Kinase, MB Isoenzyme",numeric
+creatinine phosphokinase myocardial band index (CK-MB index),%,%,labevents,50908,"CK-MB Index",numeric
+creatinine,mg/dL,mg/dL,labevents,50912,"Creatinine",numeric
+creatinine,mg/dL,mg/dL,chartevents,220615,"Creatinine (serum)",numeric
+direct bilirubin,mg/dL,mg/dL,labevents,50883,"Bilirubin, Direct",numeric
+direct bilirubin,mg/dL,mg/dL,chartevents,225651,"Direct Bilirubin",numeric
+differential eosinophils (-eos) (%),%,%,chartevents,225640,"Differential-Eos",numeric
+differential eosinophils (-eos) (%),%,%,labevents,51200,"Eosinophils",numeric
+iron (Fe),ug/dL,ug/dL,labevents,50952,"Iron",numeric
+ferritin,ng/mL,ng/mL,labevents,50924,"Ferritin",numeric
+fibrinogen,mg/dL,mg/dL,chartevents,227468,"Fibrinogen",numeric
+fibrinogen,mg/dL,mg/dL,labevents,51214,"Fibrinogen, Functional",numeric
+hematocrit (HCT),%,%,chartevents,220545,"Hematocrit (serum)",numeric
+hematocrit (HCT),%,%,chartevents,226540,"Hematocrit (whole blood - calc)",numeric
+hematocrit (HCT),%,%,labevents,50810,"Hematocrit, Calculated",numeric
+hematocrit (HCT),%,%,labevents,51221,"Hematocrit",numeric
+cholesterol (HDL),mg/dL,mg/dL,chartevents,220624,"HDL",numeric
+cholesterol (HDL),mg/dL,mg/dL,labevents,50904,"Cholesterol, HDL",numeric
+hemoglobin (HGB),g/dL,g/dL,labevents,50811,"Hemoglobin",numeric
+hemoglobin (HGB),g/dL,g/dL,chartevents,220228,"Hemoglobin",numeric
+hemoglobin (HGB),g/dL,g/dL,labevents,51222,"Hemoglobin",numeric
+lactate,mmol/L,mmol/L,labevents,50813,"Lactate",numeric
+lactate dehydrogenase (LDH),IU/L,IU/L,chartevents,220632,"LDH",numeric
+lactate dehydrogenase (LDH),IU/L,IU/L,labevents,50954,"Lactate Dehydrogenase (LD)",numeric
+cholesterol (LDL),mg/dL,mg/dL,chartevents,225671,"LDL calculated",numeric
+cholesterol (LDL),mg/dL,mg/dL,labevents,50905,"Cholesterol, LDL, Calculated",numeric
+lipase,IU/L,IU/L,labevents,50956,"Lipase",numeric
+lipase,IU/L,IU/L,chartevents,225672,"Lipase",numeric
+differential lymphocytes (-lymphs) (%),%,%,chartevents,225641,"Differential-Lymphs",numeric
+differential lymphocytes (-lymphs) (%),%,%,labevents,51244,"Lymphocytes",numeric
+magnesium,mg/dL,mg/dL,labevents,50960,"Magnesium",numeric
+magnesium,mg/dL,mg/dL,chartevents,220635,"Magnesium",numeric
+mean corpuscular hemoglobin (MCH),pg,pg,labevents,51248,"MCH",numeric
+mean corpuscular hemoglobin concentration (MCHC),g/dL,g/dL,labevents,51249,"MCHC",numeric
+mean corpuscular volume (MCV),fL,fL,labevents,51250,"MCV",numeric
+differential monocytes (-monos) (%),%,%,chartevents,225642,"Differential-Monos",numeric
+differential monocytes (-monos) (%),%,%,labevents,51254,"Monocytes",numeric
+partial pressure of carbon dioxide (PaCO2),mmHg,mmHg,labevents,50818,"pCO2",numeric
+partial pressure of carbon dioxide (PaCO2),mmHg,mmHg,chartevents,220235,"Arterial CO2 Pressure",numeric
+partial pressure of carbon dioxide (PaCO2),mmHg,mmHg,chartevents,226062,"Venous CO2 Pressure",numeric
+partial pressure of oxygen (PaO2),mmHg,mmHg,labevents,50821,"pO2",numeric
+partial pressure of oxygen (PaO2),mmHg,mmHg,chartevents,220224,"Arterial O2 Pressure",numeric
+partial pressure of oxygen (PaO2),mmHg,mmHg,chartevents,226063,"Venous O2 Pressure",numeric
+blood pH,NULL,NULL,chartevents,220274,"PH (Venous)",numeric
+blood pH,NULL,NULL,chartevents,223830,"PH (Arterial)",numeric
+blood pH,NULL,NULL,labevents,50820,"pH",numeric
+phosphate,mg/dL,mg/dL,labevents,50970,"Phosphate",numeric
+platelets,K/uL,K/uL,chartevents,227457,"Platelet Count",numeric
+platelets,K/uL,K/uL,labevents,51265,"Plate Count",numeric
+differential neutrophils (-polys) (%),%,%,labevents,51256,"Neutrophils",numeric
+potassium,mEq/L,mEq/L,chartevents,227464,"Potassium (whole blood)",numeric
+potassium,mEq/L,mEq/L,chartevents,227442,"Potassium (serum)",numeric
+potassium,mEq/L,mEq/L,labevents,50822,"Potassium, Whole Blood",numeric
+potassium,mEq/L,mEq/L,labevents,50971,"Potassium",numeric
+prothrombin time (PT),sec,sec,labevents,51274,"PT",numeric
+prothrombin time (PT),sec,sec,chartevents,227465,"Prothrombin time",numeric
+prothrombin time - international normalized ratio (PT - INR),NULL,NULL,labevents,51237,"INR(PT)",numeric
+prothrombin time - international normalized ratio (PT - INR),NULL,NULL,chartevents,227467,"INR",numeric
+partial thromboplastin time (PTT),sec,sec,chartevents,227466,"PTT",numeric
+partial thromboplastin time (PTT),sec,sec,labevents,51275,"PTT",numeric
+red blood cells (RBC),m/uL,m/uL,labevents,51279,"Red Blood Cells",numeric
+red cell distribution width (RDW),%,%,labevents,51277,"RDW",numeric
+osmolality (urine),mOsm/kg,mOsm/kg,labevents,51093,"Osmolality, Urine",numeric
+osmolality (serum),mOsm/kg,mOsm/kg,chartevents,225684,"Serum Osmolality",numeric
+osmolality (serum),mOsm/kg,mOsm/kg,labevents,50964,"Osmolality, Measured",numeric
+sodium,mEq/L,mEq/L,chartevents,226534,"Sodium (whole blood)",numeric
+sodium,mEq/L,mEq/L,chartevents,220645,"Sodium (serum)",numeric
+sodium,mEq/L,mEq/L,labevents,50983,"Sodium",numeric
+total iron binding capacity (TIBC),ug/dL,ug/dL,labevents,50953,"Iron Binding Capacity, Total",numeric
+total bilirubin,mg/dL,mg/dL,chartevents,225690,"Total Bilirubin",numeric
+total bilirubin,mg/dL,mg/dL,labevents,50885,"Bilirubin, Total",numeric
+total cholesterol,mg/dL,mg/dL,chartevents,220603,"Cholesterol",numeric
+total cholesterol,mg/dL,mg/dL,labevents,50907,"Cholesterol, Total",numeric
+total carbon dioxide (CO2),mEq/L,mEq/L,labevents,50804,"Calculated Total CO2",numeric
+total carbon dioxide (CO2),mEq/L,mEq/L,chartevents,223679,"TCO2 (calc) Venous",numeric
+total carbon dioxide (CO2),mEq/L,mEq/L,chartevents,225698,"TCO2 (calc) Arterial",numeric
+triglycerides,mg/dL,mg/dL,labevents,51000,"Triglycerides",numeric
+triglycerides,mg/dL,mg/dL,chartevents,225693,"Triglyceride",numeric
+troponin - T,ng/mL,ng/mL,labevents,51003,"Troponin T",numeric
+troponin - T,ng/mL,ng/mL,chartevents,227429,"Troponin-T",numeric
+thyroid stimulating hormones (TSH),uIU/mL,uIU/mL,labevents,50993,"Thyroid Stimulating Hormone",numeric
+creatinine (urine),mg/dL,mg/dL,labevents,51082,"Creatinine, Urine",numeric
+sodium (urine),mEq/L,mEq/L,labevents,51100,"Sodium, Urine",numeric
+specific gravity (urine),NULL,NULL,chartevents,227471,"Specific Gravity (urine)",numeric
+specific gravity (urine),NULL,NULL,labevents,51498,"Specific Gravity",numeric
+vancomycin (random),ug/mL,ug/mL,chartevents,227454,"Vancomycin (Random)",numeric
+vancomycin (trough),ug/mL,ug/mL,chartevents,227455,"Vancomycin (Trough)",numeric
+vancomycin (trough),ug/mL,ug/mL,labevents,51009,"Vancomycin",numeric
+white blood cells (urine),#/hpf,#/hpf,labevents,51516,"WBC",numeric
+white blood cells,K/uL,K/uL,chartevents,220546,"WBC",numeric
+sodium chloride 0.9% intravenous (IV) solution,mL,mL,prescriptions,MIDAZBASE,"0.9% Sodium Chloride",numeric
+sodium chloride 0.9% intravenous (IV) solution,mL,mL,prescriptions,NSLV,"Sodium Chloride 0.9%",numeric
+sodium chloride 0.9% intravenous (IV) solution,mL,mL,prescriptions,NS250,"0.9% Sodium Chloride",numeric
+sodium chloride 0.9% intravenous (IV) solution,mL,mL,prescriptions,NS100CG,"0.9% Sodium Chloride",numeric (unit = 100mL bag)
+sodium chloride 0.9% intravenous (IV) solution,mL,mL,prescriptions,NS1000,"0.9% Sodium Chloride",numeric
+sodium chloride 0.9% intravenous (IV) solution,mL,mL,prescriptions,NS100,"0.9% Sodium Chloride",numeric
+sodium chloride 0.9% intravenous (IV) solution,mL,mL,prescriptions,NOREBASENS,"0.9% Sodium Chloride",numeric
+sodium chloride 0.9% intravenous (IV) solution,mL,mL,prescriptions,METRBASE,"NS",numeric
+sodium chloride 0.9% intravenous (IV) flush,mL,mL,prescriptions,NACLFLUSH,Sodium Chloride 0.9%  Flush,numeric
+dextrose 50% intravenous (IV) solution,g,mL,inputevents,220952,"Dextrose 50%",numeric
+dextrose 50% intravenous (IV) solution,g,g,prescriptions,DEX50SY,"Dextrose 50%",numeric
+acetaminophen,mg,mg,prescriptions,ACET650R,"Acetaminophen",numeric
+acetaminophen,mg,mg,prescriptions,ACET650L,"Acetaminophen",numeric
+acetaminophen,mg,mg,prescriptions,APAP500,"Acetaminophen",numeric
+acetaminophen,mg,mg,prescriptions,ACET1000I,"Acetaminophen IV",numeric
+acetaminophen,mg,mg,prescriptions,ACET325,"Acetaminophen",numeric
+acetaminophen,mg,mg,inputevents,228315,"Acetaminophen-IV",numeric
+bisacodyl,mg,mg,prescriptions,BISA10R,"Bisacodyl",numeric
+bisacodyl,mg,mg,prescriptions,BISA5,"Bisacodyl",numeric
+docusate sodium,mg,mg,prescriptions,DOCU100T,"Docusate Sodium",numeric
+docusate sodium,mg,mg,prescriptions,DOCU100L,"Docusate Sodium",numeric
+docusate sodium,mg,mg,prescriptions,DOCU100,"Docusate Sodium",numeric
+furosemide,mg,mg,prescriptions,FURO20I,"Furosemide",numeric
+furosemide,mg,mg,prescriptions,FURO40I,"Furosemide",numeric
+furosemide,mg,mg,prescriptions,FURO100PB,"Furosemide",numeric
+furosemide,mg,mg,prescriptions,FURO100I,"Furosemide",numeric
+furosemide,mg,mg,inputevents,221794,"Furosemide (Lasix)",numeric
+metoprolol tartrate,mg,mg,prescriptions,METO12.5HT,"Metoprolol Tartrate",numeric
+metoprolol tartrate,mg,mg,prescriptions,METO25,"Metoprolol Tartrate",numeric
+metoprolol tartrate,mg,mg,prescriptions,METO50,"Metoprolol Tartrate",numeric
+metoprolol tartrate,mg,mg,prescriptions,METO5I,"Metoprolol Tartrate",numeric
+nitroglycerin,mg,mg,prescriptions,NTG100PM,"Nitroglycerin",numeric
+nitroglycerin,mg,mg,prescriptions,NITR8SYR,"Nitroglycerin",numeric
+nitroglycerin,mg,mg,prescriptions,NITR20SYR,"Nitroglycerin",numeric
+nitroglycerin,mg,mg,inputevents,222056,"Nitroglycerin",numeric
+ondansetron,mg,mg,prescriptions,ONDAN4I,"Ondansetron",numeric
+pantoprazole,mg,mg,prescriptions,PANT40I,"Pantoprazole",numeric
+pantoprazole,mg,mg,prescriptions,PANT40,"Pantoprazole",numeric
+pantoprazole,mg,dose,inputevents,225910,"Pantoprazole (Protonix)",numeric
+potassium chloride,mEq,mEq,prescriptions,POTA20,"Potassium Chloride",numeric
+potassium chloride,mEq,mEq,inputevents,225166,"Potassium Chloride",numeric
+potassium chloride,mEq,mEq,prescriptions,KCL10PM,"Potassium Chloride",numeric
+potassium chloride,mEq,mEq,prescriptions,KCL20P,"Potassium Chloride",numeric
+potassium chloride,mEq,mEq,prescriptions,KCL20PM,"Potassium Chloride",numeric
+potassium chloride,mEq,mEq,prescriptions,KCL40I,"Potassium Chloride",numeric
+intravenous piggyback (IVPB),mL,mL,inputevents,226089,"Piggyback",numeric
+norepinephrine,mg,mg,prescriptions,NORE8/250,"NORepinephrine",numeric
+norepinephrine,mg,mg,prescriptions,LEVO4I,"Norepinephrine",numeric
+norepinephrine,mg,mg,prescriptions,NORE8/250N,"NORepinephrine",numeric
+norepinephrine,mg,mg,inputevents,221906,"Norepinephrine",numeric
+propofol,mg,mg,inputevents,222168,"Propofol",numeric
+propofol,mg,mg,prescriptions,PROP100IG,"Propofol",numeric
+propofol,mg,mg,prescriptions,PROP200IG,"Propofol",numeric
+gastric tube (nasogastric),mL,mL,outputevents,226575,"Nasogastric",numeric
+per oral (p.o.) intake,mL,mL,inputevents,226452,"PO Intake",numeric
+stool,mL,mL,outputevents,226579,"Stool",numeric
+urine output,mL,mL,outputevents,226627,"OR Urine",numeric
+capillary refill,NULL,NULL,chartevents,224308,"Capillary Refill L",categorical
+capillary refill,NULL,NULL,chartevents,223951,"Capillary Refill R",categorical
+left dorsalis pedis pulse,NULL,NULL,chartevents,223943,"Dorsal PedPulse L",categorical
+right dorsalis pedis pulse,NULL,NULL,chartevents,223934,"Dorsal PedPulse R",categorical
+left radial pulse,NULL,NULL,chartevents,223948,"Radial Pulse L",categorical
+right radial pulse,NULL,NULL,chartevents,223936,"Radial Pulse R",categorical
+LLE strength / sensation,NULL,NULL,chartevents,224762,"LLE Sensation",categorical
+LUE strength / sensation,NULL,NULL,chartevents,224759,"LUE Sensation",categorical
+RLE strength / sensation,NULL,NULL,chartevents,223924,"RLE Sensation",categorical
+RUE strength / sensation,NULL,NULL,chartevents,224758,"RUE Sensation",categorical
+speech,NULL,NULL,chartevents,228414,"Speech",categorical
+speech,NULL,NULL,chartevents,223902,"Speech",categorical
+left pupil size,mm,mm,chartevents,224733,"Pupil Size Left",numeric
+right pupil size,mm,mm,chartevents,223907,"Pupil Size Right",numeric
+cough / gag reflex,NULL,NULL,chartevents,223904,"Gag Reflex",categorical
+cough / gag reflex,NULL,NULL,chartevents,223905,"Cough Reflex",categorical
+Braden activity scale,NULL,NULL,chartevents,224056,"Braden Activity",categorical
+Braden friction & shear scale,NULL,NULL,chartevents,224059,"Braden Friction/Shear",categorical
+Braden mobility scale,NULL,NULL,chartevents,224057,"Braden Mobility",categorical
+Braden moisture scale,NULL,NULL,chartevents,224055,"Braden Moisture",categorical
+Braden nutrition scale,NULL,NULL,chartevents,224058,"Braden Nutrition",categorical
+Braden sensory perception scale,NULL,NULL,chartevents,224054,"Braden Sensory Perception",categorical
+Morse ambulatory aid,NULL,NULL,chartevents,227343,"Ambulatory Aid",categorical
+Morse gait / transferring,NULL,NULL,chartevents,227345,"Gait/Transferring",categorical
+Morse history of falling,NULL,NULL,chartevents,227341,"History of falling (within 3 mnths)",categorical
+Morse history of falling,NULL,NULL,chartevents,225094,"History of slips / falls",categorical
+Morse mental status,NULL,NULL,chartevents,227346,"Mental status",categorical
+Morse secondary diagnosis,NULL,NULL,chartevents,227342,"Secondary diagnosis",categorical
+delirium assessment,NULL,NULL,chartevents,228332,"Delirium Assessment",categorical
+Glasgow coma scale (GCS) - Eye,NULL,NULL,chartevents,220739,"GCS - Eye Opening",categorical
+Glasgow coma scale (GCS) - Verbal,NULL,NULL,chartevents,223900,"GCS - Verbal Response",categorical
+Glasgow coma scale (GCS) - Motor,NULL,NULL,chartevents,223901,"GCS - Motor Response",categorical
+level of assistance,NULL,NULL,chartevents,228868,"Assistance",categorical
+chest X-ray,NULL,NULL,procedureevents,225459,"Chest X-Ray",binary
+chest X-ray,NULL,NULL,procedureevents,229581,"Portable Chest X-Ray",binary
+invasive ventilation,NULL,NULL,procedureevents,225792,"Invasive Ventilation",binary
+foley catheter,NULL,NULL,procedureevents,229351,"Foley Catheter",binary

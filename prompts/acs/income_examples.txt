@@ -1,0 +1,19 @@
+Here are some example outputs:
+
+- Variable: Class of worker (COW)
+{
+    "reasoning": "The type or class of work (e.g., government employee, self-employed, unemployed, for-profit company employee) that an individual is engaged in can be directly linked to their income. For instance, an individual who is unemployed will have close to no income earned, significantly decreasing the likelihood that an individual earns more than $50,000 in income. On the other hand, an individual who is employed at a for-profit company in the technology industry will be more likely to make more than $50,000 in income than an unemployed individual. Thus, while it should be considered in conjunction with other features to avoid any unfair and biased predictions, the score is 0.9.",
+    "score": 0.9
+}
+
+- Variable: Person's Weight replicate 78 (PWGTP78)
+{
+    "reasoning": "PWGTP78 refers to the 78th replicate PUMS weight for an individual, used in accurately calculating the variance in ACS PUMS estimates. These weights are not directly related to an individual's income or socioeconomic standing, and are more about ensuring the reliability and robustness of estimates derived from the survey sample. Thus, it is unlikely that this feature has a direct or meaningful influence on predicting whether an individual earns more than $50,000. The score is 0.1.",
+    "score": 0.1
+}
+
+- Variable: Income-to-poverty ratio recode (POVPIP)
+{
+    "reasoning": "The income-to-poverty ratio is a measure that compares an individual's or household's income to the poverty threshold set for their respective size and composition. This ratio offers a straightforward understanding of a person's financial situation relative to the poverty line. An individual with a ratio significantly above 1 has an income that surpasses the poverty threshold by a considerable margin, which can indicate a higher likelihood of having an income above $50,000. Conversely, an individual with a ratio close to or below 1 is near or below the poverty level, making it less probable for them to earn more than $50,000. Given its direct correlation to income levels, the income-to-poverty ratio recode is a strong predictor of whether an individual earns more than $50,000. Thus, the score is 0.95.",
+    "score": 0.95
+}

@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Body Mass Index (BMI)
+{
+    "reasoning": "BMI is a widely used measure to classify individuals based on their weight relative to their height. It is a proxy for body fatness and can give insights into whether a person has a healthy weight, is underweight, overweight, or obese. Obesity is a significant risk factor for type 2 diabetes, as higher amounts of body fat can lead to insulin resistance and thereby increase the risk of developing diabetes. Thus, while BMI should be considered in conjunction with other clinical measurements (e.g., blood sugar levels, blood pressure) for a comprehensive assessment of diabetic risk, the score is 0.8, given its strong association.",
+    "score": 0.8
+}

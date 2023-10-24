@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: sale month in 2016 (1 = january)
+{
+    "reasoning": "While the real estate market may be subject to seasonal fluctuations, the month during which a house was sold is not directly indicative of its selling price. Thus, the score is 0.25.",
+    "score": 0.25
+}

@@ -1,0 +1,19 @@
+Here are some example outputs:
+
+- Variable: Marital Status (MAR)
+{
+    "reasoning": "Marital status can be an indicator of stability and lifestyle changes, which may be associated with mobility patterns. For instance, individuals who get married might be more inclined to move to a new residence (e.g., buying a house together). Conversely, those who experience a divorce or separation might also decide to move. Hence, marital status can be conceptually relevant in predicting whether a young adult moved in the last year. However, being married or not may not necessarily indicate that the individual moved addresses precisely during the past 12 months. Thus, the score is 0.4, accounting for the moderate association between marital status and mobility status.",
+    "score": 0.4
+}
+
+- Variable: Person's Weight replicate 78 (PWGTP78)
+{
+    "reasoning": "PWGTP78 refers to the 78th replicate PUMS weight for an individual, used in calculating accurate variance estimates for ACS PUMS estimates. These replicate weights do not inherently contain information about an individual's mobility status, and their primary role is to help ensure the reliability and robustness of estimates derived from the survey sample. Therefore, the score is 0.1.",
+    "score": 0.1
+}
+
+- Variable: Divorced in the past 12 months (MARHD)
+{
+    "reasoning": "Being divorced in the past 12 months can have a significant impact on an individual's living situation and mobility status. A recent divorce can necessitate a change in residence for one or both parties, due to the division of assets, emotional reasons, or seeking a fresh start. Given the life-changing nature of a divorce and its potential implications on housing needs and preferences, this variable can be considered directly relevant in predicting whether a young adult has moved in the last year. Therefore, the score is 0.9.",
+    "score": 0.9
+}

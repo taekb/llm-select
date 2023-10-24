@@ -1,0 +1,2 @@
+{context}
+Given human feedback on the performance of a model trained using a subset of features, your task is to output the next feature that should be included to maximally improve the performance, based on your understanding of the relationships between: (1) the new feature and the features already included, and (2) the new feature and the prediction target.

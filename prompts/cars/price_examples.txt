@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Selling type (dealer/individual)
+{
+    "reasoning": "The selling type can have an impact on the price of a used car, as dealers often have overhead costs and can offer warranties or other serivces that can increase the price. However, factors such as the age of the car or the mileage are generally more influential in determining the price. Therefore, the score is 0.2.",
+    "score": 0.2
+}

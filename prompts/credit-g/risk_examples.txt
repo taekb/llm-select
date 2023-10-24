@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Installment rate in percentage of disposable income
+{
+    "reasoning": "The installment rate as a percentage of disposable income provides insight into a person's financial responsibility and capability. This percentage can be seen as a measure of how much of a person's available income is committed to repaying their debts. If this rate is high, it might indicate that the person is taking more debt than they can comfortably repay and may hint at a lack of financial responsibility, implying higher credit risk. If this rate is low, it likely indicates that the person can manage their current financial obligations comfortably, implying lower credit risk. Thus, the score is 0.9.",
+    "score": 0.9
+}

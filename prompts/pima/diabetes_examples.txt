@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Diastolic blood pressure (mmHg)
+{
+    "reasoning": "Diastolic blood pressure is the pressure in the arteries when the heart rests between beats. While i is an important health indicator, its direct correlation with diabetes is not as strong as other factors like glucose levels or BMI. However, high blood pressure can be associated with an increased risk of diabetes complications, including heart disease and stroke. Therefore, while a significant factor to consider, it is not as crucial as some other factors in predicting diabetes. So, the score is 0.6.",
+    "score": 0.6
+}

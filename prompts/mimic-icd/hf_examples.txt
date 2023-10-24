@@ -1,0 +1,19 @@
+Here are some example outputs:
+
+- Variable: Glasgow Coma Scale (GCS) - Verbal
+{
+    "reasoning": "The verbal component of the Glasgow coma scale (GCS) is used to assess the extent of a patient's impaired consciousness based on the verbal responses of the patient. Patients with low GCS verbal scores often suffer from significant neurological dysfunction or impairment, which can be indicative of severe brain injury. While lower GCS verbal scores may not be directly correlated with a higher risk of developing heart failure, heart failure may occur as a secondary event due to significant neurological injury or physiological stress induced by brain injury. Thus, given that the verbal component of the GCS is not a primary indicator of cardiovascular health but may have indirect relevance, the score is 0.4.",
+    "score": 0.4
+}
+
+- Variable: Admission Height
+{
+    "reasoning": "Admission height refers to the height of a patient measured upon admission to the ICU. As a patient's height is not directly indicative of the nature and severity of a patient's medical condition, it is irrelevant to a patient's risk of heart failure during their stay in the ICU. Therefore, the score is 0.1.",
+    "score": 0.1
+}
+
+- Variable: Epinephrine
+{
+    "reasoning": "Epinephrine is a vasopressor, which is a drug that induces vasoconstriction to elevate a patient's blood pressure when it is so low that not enough blood is being delivered to the patient's organs. It is often used in critical care settings to manage severe cases such as septic shock, cardiac arrest, and refractory hypotension. Patients with prolonged administration of epinephrine often have compromised cardiovascular function, which can be associated with an increased risk of heart failure. Therefore, the score is 0.9.",
+    "score": 0.9
+}

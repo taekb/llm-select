@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Year of Birth
+{
+    "reasoning": "The year in which a defendant was born is not directly relevant to the likelihood of recidivism, and incorporating such information for model training may introduce unwanted biases. Therefore, the score is 0.1.",
+    "score": 0.1
+}

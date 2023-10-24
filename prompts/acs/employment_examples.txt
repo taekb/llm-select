@@ -1,0 +1,19 @@
+Here are some example outputs:
+
+- Variable: Marital Status (MAR)
+{
+    "reasoning": "Marital status can have some indirect implications for employment status. For instance, in households with a single income earner, one partner might choose not to work. However, marital status on its own is not a strong predictor of employment. Numerous unmarried individuals work, and many married individuals might be unemployed. Thus, while there is mild correlation, marital status is not a direct indicator of employment status. Hence, the score is 0.3.",
+    "score": 0.3
+}
+
+- Variable: Person's Weight replicate 78 (PWGTP78)
+{
+    "reasoning": "PWGTP78 refers to the 78th replicate PUMS weight for an individual, used in accurately calculating the variance in the ACS PUMS estimates. These replicate weights do not inherently contain information about an individual's employment status, and their primary role is to help ensure the reliability and robustness of estimates derived from the survey sample. Therefore, the score is 0.1.",
+    "score": 0.1
+}
+
+- Variable: Income-to-poverty ratio recode (POVPIP)
+{
+    "reasoning": "The income-to-poverty ratio is a measure that compares an individual's or household's income to the poverty threshold set for their respective size and composition. This ratio offers a straightforward understanding of a person's financial situation relative to the poverty line. An individual with a ratio significantly above 1 has an income that surpasses the poverty threshold by a considerable margin, which can potentially hint at employment or other sources of income. Conversely, an individual with a low ratio may be strugging from financial difficulties, possibly due to unemployment. However, there are exceptions. For example, an individual may have a low income-to-poverty ratio but still be employed. Thus, while the ratio may have strong correlation with employment status, it is not a definitive predictor of employment status. So the score is 0.7.",
+    "score": 0.7
+}

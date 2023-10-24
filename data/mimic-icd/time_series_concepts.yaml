@@ -1,0 +1,142 @@
+- temperature
+- oxygen saturation (SaO2 / SpO2)
+- heart rate
+- respiratory rate
+- central venous pressure (CVP)
+- end-tidal carbon dioxide (EtCO2)
+- systemic systolic arterial blood pressure
+- systemic diastolic arterial blood pressure
+- systemic mean arterial blood pressure
+- pulmonary systolic arterial blood pressure
+- pulmonary diastolic arterial blood pressure
+- pulmonary mean arterial blood pressure
+- apnea interval (set)
+- lung compliance
+- minute volume
+- tidal volume (set)
+- tidal volume (observed)
+- tidal volume (spontaneous)
+- fraction of inspired oxygen (FiO2)
+- oxygen flow rate
+- mean airway pressure
+- peak inspired pressure
+- positive end-expiratory pressure (PEEP)
+- plateau pressure
+- albumin
+- alkaline phosphatase
+- alanine transaminase (ALT / SGPT)
+- amylase
+- anion gap
+- aspartate aminotransferase (AST / SGOT)
+- differential bands / immature band forms (-bands) (%)
+- base excess
+- differential basophils (-basos) (%)
+- glucose
+- bicarbonate
+- blood urea nitrogen (BUN)
+- calcium
+- calcium (ionized)
+- chloride
+- cortisol
+- creatinine phosphokinase (CPK / CK)
+- creatinine phosphokinase myocardial band (CK-MB)
+- creatinine phosphokinase myocardial band index (CK-MB index)
+- creatinine
+- direct bilirubin
+- differential eosinophils (-eos) (%)
+- iron (Fe)
+- ferritin
+- fibrinogen
+- hematocrit (HCT)
+- cholesterol (HDL)
+- hemoglobin (HGB)
+- lactate
+- lactate dehydrogenase (LDH)
+- cholesterol (LDL)
+- lipase
+- differential lymphocytes (-lymphs) (%)
+- magnesium
+- mean corpuscular hemoglobin (MCH)
+- mean corpuscular hemoglobin concentration (MCHC)
+- mean corpuscular volume (MCV)
+- differential monocytes (-monos) (%)
+- partial pressure of carbon dioxide (PaCO2)
+- partial pressure of oxygen (PaO2)
+- blood pH
+- phosphate
+- platelets
+- differential neutrophils (-polys) (%)
+- potassium
+- prothrombin time (PT)
+- prothrombin time - international normalized ratio (PT - INR)
+- partial thromboplastin time (PTT)
+- red blood cells (RBC)
+- red cell distribution width (RDW)
+- osmolality (urine)
+- osmolality (serum)
+- sodium
+- total iron binding capacity (TIBC)
+- total bilirubin
+- total cholesterol
+- total carbon dioxide (CO2)
+- triglycerides
+- troponin - T
+- thyroid stimulating hormones (TSH)
+- creatinine (urine)
+- sodium (urine)
+- specific gravity (urine)
+- vancomycin (random)
+- vancomycin (trough)
+- white blood cells (urine)
+- white blood cells
+- sodium chloride 0.9% intravenous (IV) solution
+- sodium chloride 0.9% intravenous (IV) flush
+- dextrose 50% intravenous (IV) solution
+- acetaminophen
+- bisacodyl
+- docusate sodium
+- furosemide
+- metoprolol tartrate
+- nitroglycerin
+- ondansetron
+- pantoprazole
+- potassium chloride
+- intravenous piggyback (IVPB)
+- norepinephrine
+- propofol
+- gastric tube (nasogastric)
+- per oral (p.o.) intake
+- stool
+- urine output
+- capillary refill
+- left dorsalis pedis pulse
+- right dorsalis pedis pulse
+- left radial pulse
+- right radial pulse
+- LLE strength / sensation
+- LUE strength / sensation
+- RLE strength / sensation
+- RUE strength / sensation
+- speech
+- left pupil size
+- right pupil size
+- cough / gag reflex
+- Braden activity scale
+- Braden friction & shear scale
+- Braden mobility scale
+- Braden moisture scale
+- Braden nutrition scale
+- Braden sensory perception scale
+- Morse ambulatory aid
+- Morse gait / transferring
+- Morse history of falling
+- Morse mental status
+- Morse secondary diagnosis
+- delirium assessment
+- Glasgow coma scale (GCS) - Eye
+- Glasgow coma scale (GCS) - Verbal
+- Glasgow coma scale (GCS) - Motor
+- level of assistance
+- chest X-ray
+- invasive ventilation
+- foley catheter

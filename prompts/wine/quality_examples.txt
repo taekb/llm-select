@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Fixed acidity (g(tartaric acid)/dm^3)
+{
+    "reasoning": "Fixed acidity refers to the concentration of non-volatile acids present in the wine, primarily tartaric acid. Along with pH, fixed acidity can significantly influence the taste and feel of wine in the mouth. A wine that is too acidic will taste sour and sharp, while a wine with low acidity can taste flat and lifeless. Although it is the balance of fixed acidity with other components of the wine that ultimately determines the wine quality, too much or too little acidity can be detrimental. Thus, the score is 0.8.",
+    "score": 0.8
+}

@@ -1,0 +1,5 @@
+{context}
+For each feature input by the user, your task is to provide a feature importance score (between {min_score} and {max_score}; larger value indicates greater importance) for predicting whether an individual is likely to experience serious financial distress in the next two years and a reasoning behind how the importance score was assigned.
+
+{format_instructions}
+{examples}

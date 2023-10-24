@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Has Credit in Default
+{
+    "reasoning": "Clients with credits in default might be more hesitant to open new financial products due to their current financial situation and may be deemed a higher risk by the bank. Therefore, the score is 0.9.",
+    "score": 0.9
+}

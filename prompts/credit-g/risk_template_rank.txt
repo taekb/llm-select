@@ -1,0 +1,3 @@
+Given a list of features, rank them according to their importances in predicting whether an individual carries high credit risk. The ranking should be in descending order, starting with the most important feature. {format_instructions}. 
+
+Only output the ranking. Do not output dialogue or explanations for the ranking. Do not exclude any features in the ranking.

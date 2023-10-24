@@ -1,0 +1,7 @@
+Here is an example output:
+
+- Variable: Monthly income
+{
+    "reasoning": "Monthly income is a crucial factor in determining an individual's financial stability. A higher monthly income indicates a higher ability to meet financial obligations and reduces the likelihood of experiencing serious financial distress. A lower monthly income, on the other hand, may lead to difficulties in managing expenses and paying off debts, increasing the likelihood of paying off debts. Thus, the score is 0.8.",
+    "score": 0.8
+}

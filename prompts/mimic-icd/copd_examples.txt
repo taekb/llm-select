@@ -1,0 +1,19 @@
+Here are some example outputs:
+
+- Variable: Glasgow Coma Scale (GCS) - Verbal
+{
+    "reasoning": "The verbal component of the Glasgow coma scale (GCS) is used to assess the extent of a patient's impaired consciousness based on the verbal responses of the patient. Patients with low GCS verbal scores often suffer from significant neurological dysfunction or impairment, which can be indicative of severe injury to the brain. While a significantly low GCS verbal score may indicate that a patient is more critically ill, potentially at risk for multi-organ dysfunction, the verbal component of the GCS is not directly related to the health of the respiratory system and a patient's risk of developing COPD. Therefore, the score is 0.2, reflecting a slight relevance due to its indirect ability to gauge overall patient severity but not being directly relevant to COPD.",
+    "score": 0.2
+}
+
+- Variable: Admission Height
+{
+    "reasoning": "Admission height refers to the height of a patient measured upon admission to the ICU. As a patient's height is not directly indicative of the nature and severity of a patient's medical condition, it is irrelevant to a patient's risk of developing COPD during their stay in the ICU. Therefore, the score is 0.1.",
+    "score": 0.1
+}
+
+- Variable: Lung Compliance
+{
+    "reasoning": "Lung compliance is a quantitative measure of lung expandability. Patients with COPD suffer from a loss of elastic recoil in the lungs, which leads to an increase in lung compliance and manifests in symptoms such as shortness of breath due to an inability to expell air effectively. Therefore, lung compliance can be highly indicative of a patient's risk for COPD, and the score is 0.9.",
+    "score": 0.9
+}

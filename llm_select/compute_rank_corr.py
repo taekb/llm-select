@@ -653,8 +653,6 @@ def compute_fisher_scores(datapred, seed=DEFAULT_SEED, subsample_thresh=50000):
     '''
 
     # If dataset size is above threshold, subsample with stratified splitting
-    # NOTE: This is only done since Fisher score computation can crash if dataset is too large
-    # TODO: Double-check if this is really necessary
     train_dataset = load_dataset(datapred, split='train', select='all', normalize=True, seed=seed)
     X, Y = train_dataset.X, train_dataset.Y
 

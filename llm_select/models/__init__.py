@@ -1,1 +1,1 @@
-from . import lgb, xgb, mlp, lstm
+from . import lgb, xgb, mlp, linear

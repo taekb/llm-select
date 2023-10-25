@@ -1041,7 +1041,7 @@ if __name__ == '__main__':
         type=float
     )
     parser.add_argument('--seeds', help='Random seeds for reproducibility', nargs='*', default=[1,2,3,4,5], type=int)
-    parser.add_argument('--outdir', help='Output directory', default='./results/benchmark', type=str)
+    parser.add_argument('--outdir', help='Output directory', default='./results/large_exp', type=str)
     parser.add_argument('--exp_suffix', help='Optional suffix to add to results file', default='', type=str)
     parser.add_argument('--run_locally', help='Option to run Ray Tune locally without W&B', default=False, action='store_true')
     args = parser.parse_args()

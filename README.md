@@ -51,7 +51,7 @@ For LLM-Seq, which selects features sequentially, training the downstream model 
 
 See Section 3 of the paper for more details on LLM-Score, LLM-Rank, and LLM-Seq. All of the main utilities for LLM-based feature selection are included under `./llm_select/selection`. All of the prompt templates used for the three methods are included under `./prompts`.
 
-### 2.0.1. Running LLMScore
+### 2.0.1. Running LLM-Score
 To run LLM-Score for any of the small-scale or large-scale datasets used in our experiments, move to `./llm_select/selection` and run the following bash script:
 ```
 ./get_scores.sh <llm_model> <*datapreds>

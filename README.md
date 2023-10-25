@@ -45,7 +45,7 @@ We note that the [scikit-feature](https://github.com/jundongl/scikit-feature) li
 
 Below, we provide instructions for running LLM-Score, LLM-Rank, and LLM-Seq for feature selection and replicating the small-scale dataset experiments in Section 4.1 and the large-scale dataset experiments in Section 4.2 of the paper. 
 
-Using LLM-Score and LLM-Rank for feature selection involves a *two-step process*: (i) prompting an LLM to generate the feature importance scores or feature rankings and then (ii) using the highest scoring/ranked features for training a downstream prediction model. So before running the bash scripts for running the [small-scale](#21-smallscale-dataset-experiments) and large-scale dataset experiments, please follow the instructions for running [LLM-Score](#201-running-llmscore) and [LLM-Rank](#202-running-llmrank) first.
+Using LLM-Score and LLM-Rank for feature selection involves a *two-step process*: (i) prompting an LLM to generate the feature importance scores or feature rankings and then (ii) using the highest scoring/ranked features for training a downstream prediction model. So before running the bash scripts for running the [small-scale](#21-smallscale-dataset-experiments) and large-scale dataset experiments, please follow the instructions for running [LLM-Score](#201-running-llm-score) and [LLM-Rank](#202-running-llm-rank) first.
 
 For LLM-Seq, which selects features sequentially, training the downstream model occurs simultaneously in an iterative manner: at each iteration of the selection loop, we add a new feature by prompting the LLM and train a downstream model with the updated feature subset. 
 
@@ -99,7 +99,7 @@ To run all of the small-scale dataset experiments, move to `./llm_select` and ru
 ```
 ./run_linear_compare.sh <*datapreds>
 ```
-where <*datapreds> should be replaced with a variable number of dataset & prediction task pairs (in the format `<dataset>/<prediction>`), taking one of the values listed in the instructions for [LLM-Score](#201-running-llmscore).
+where <*datapreds> should be replaced with a variable number of dataset & prediction task pairs (in the format `<dataset>/<prediction>`), taking one of the values listed in the instructions for [LLM-Score](#201-running-llm-score).
 
 All of the results will then be saved under the `./llm_select/results/linear_compare` folder, which will be automatically created when the script is run for the first time.
 

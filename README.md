@@ -1,5 +1,6 @@
 # LLM-Select: Feature Selection with Large Language Models
-This is the source code repository for the paper: "LLM-Select: Feature Selection with Large Language Models". 
+This is the official repository for the TMLR paper: 
+> Daniel P. Jeong, Zachary C. Lipton, Pradeep Ravikumar. [LLM-Select: Feature Selection with Large Language Models](https://arxiv.org/abs/2407.02694). *Transactions on Machine Learning Research (TMLR), 2025*. 
 
 This repository includes implementations of our proposed LLM-Score, LLM-Rank, and LLM-Seq feature selection methods based on GPT-4, GPT-3.5, and Llama-2 (70B/13B/7B), along with all of the prompt templates and Python & bash scripts used for running all of the experiments. In particular, we use the following versions for each model:
 

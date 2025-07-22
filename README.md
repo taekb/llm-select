@@ -91,7 +91,7 @@ To run LLM-Score for any of the small-scale or large-scale datasets used in our 
 ```
 ./get_ranks.sh <llm_model> <*datapreds>
 ```
-where <llm_model> should be replaced with one of `gpt-4-0613`, `gpt-3.5-turbo`, `llama-2-70b-chat`, `llama-2-13b-chat`, and `llama-2-7b-chat`, and <*datapreds> should be replaced with a variable number of dataset & prediction task pairs (in the format `<dataset>/<prediction>`, which can take the following values listed below.
+where <llm_model> should be replaced with one of `gpt-4-0613`, `gpt-3.5-turbo`, `llama-2-70b-chat`, `llama-2-13b-chat`, and `llama-2-7b-chat`, and <*datapreds> should be replaced with a variable number of dataset & prediction task pairs (in the format `<dataset>/<prediction>`), which can take the following values listed below.
 
 All of the parsed LLM-Rank results will then be saved under the `./prompt_outputs` folder, which will be automatically created when the script is run for the first time.
 
@@ -105,13 +105,15 @@ where <*datapreds> should be replaced with a variable number of dataset & predic
 All of the results will then be saved under the `./llm_select/results/linear_compare` folder, which will be automatically created when the script is run for the first time.
 
 ### 2.2. Large-Scale Dataset Experiments
-In the large-scale dataset experiments, we compare our LLM-based feature selection methods against [LassoNet](https://github.com/lasso-net/lassonet) (Lemhadri et al., 2021), [group LASSO](https://github.com/yngvem/group-lasso) (gLASSO; Yuan and Lin, 2005), and [maximum relevance minimum redundancy selection](https://github.com/smazzanti/mrmr) (MRMR; Ding and Peng, 2005). 
+In the large-scale dataset experiments, we compare our LLM-based feature selection methods against [LassoNet](https://github.com/lasso-net/lassonet) (Lemhadri et al., 2021), the LASSO (Tibshirani, 1996), [maximum relevance minimum redundancy selection](https://github.com/smazzanti/mrmr) (MRMR; Ding and Peng, 2005), [HSIC-Lasso](https://github.com/riken-aip/pyHSICLasso) (Yamada et al., 2014), and [Concrete Autoencoders](https://github.com/mfbalin/Concrete-Autoencoders) (CAE; Balin et al., 2019).
 
 Given that regularization path computation and feature selection based on these methods can take a long time for datasets with a large number of features, we precompute the binary feature masks before running the main experiments. To precompute the binary feature masks, move to `./llm_select/selection` and run the following bash scripts:
 ```
 ./run_lassonet.sh
 ./run_glasso.sh
 ./run_mrmr.sh
+./run_hsic_lasso.sh
+./run_cae.sh
 ```
 All of the feature masks (and the computed regularization paths, if applicable) will then be saved under `./llm_select/selection/<method>` (e.g., `./llm_select/selection/lassonet`). These feature masks will then be automatically used by the large-scale dataset experiment scripts.
 
